@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 
-function CardItem(props) {
+//card item for the homepage
+function CardItemHomePage(props) {
   return (
     <>
       <li className='cards_item'>
@@ -17,4 +18,4 @@ function CardItem(props) {
   )
 }
 
-export default CardItem;
+export default CardItemHomePage;

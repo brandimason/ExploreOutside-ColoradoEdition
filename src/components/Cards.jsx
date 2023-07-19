@@ -1,5 +1,5 @@
-import './Cards.css';
-import CardItem from './CardItem';
+// import './Cards.css';
+import CardItemHomePage from './CardItemHomePage';
 
 function Cards() {
   return (
@@ -8,17 +8,17 @@ function Cards() {
         <div className="cards_container">
           <div className='cards_wrapper'>
             <ul className="cards_items">
-              <CardItem
+              <CardItemHomePage
               src="images/blueLakes.jpeg"
               text="Top Hikes by Denver"
               label="Hiking"
               path="/hiking"/>
-               <CardItem
+               <CardItemHomePage
               src="images/woman-backpacking.webp"
               text="Best Backpacking by Denver"
               label="Backpacking"
               path="/backpacking"/>
-               <CardItem
+               <CardItemHomePage
               src="images/camping.jpeg"
               text="Car Camping for Everyone"
               label="Camping"
