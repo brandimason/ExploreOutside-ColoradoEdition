@@ -6,7 +6,6 @@ import AddNewForm from '../AddNewForm';
 
 function Hiking({hikeArray}){
     const [formShown, setFormShown] = useState(false)
-    console.log(formShown)
 
     function handleSubmit(event){
         event.preventDefault()
