@@ -11,6 +11,7 @@ function CardItemHomePage(props) {
           </aside>
           <div className='cards_item_info'>
             <h5 className='cards_item_text'>{props.text}</h5>
+            <p className='cards_item_description'>{props.description}</p>
           </div>
         </Link>
       </div>
