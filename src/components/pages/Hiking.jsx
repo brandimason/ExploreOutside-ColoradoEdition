@@ -13,7 +13,7 @@ function Hiking({hikeArray, addNewHike}){
         const newHike ={
             name: event.target["name"].value,
             description: event.target["description"].value,
-            difficulty: event.target["difficulty"].value
+            image: event.target["image"].value
         }
         
         fetch('http://localhost:3000/hikes', {
