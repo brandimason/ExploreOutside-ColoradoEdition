@@ -51,6 +51,10 @@
     align-items: flex-start;
 }
 
+.navbar-logo svg {
+    margin-left: .25rem;
+}
+
 .navbar-logo {
     position: absolute;
     top: 0;
