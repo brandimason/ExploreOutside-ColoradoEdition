@@ -6,20 +6,45 @@ import Home from './components/pages/Home';
 import Hiking from './components/pages/Hiking';
 import Backpacking from './components/pages/Backpacking';
 import Camping from './components/pages/Camping';
-import Contact from './components/pages/Contact';
+import { useEffect, useState } from 'react';
+import ContactForm from './components/pages/ContactForm';
 
 function App() {
+  const [hikeArray, setHikeArray] = useState([])
+  useEffect(() => {
+    fetch(`http://localhost:3000/hikes`)
+    .then(res => res.json())
+    .then(data => setHikeArray(data))
+  }, [])
 
+function addNewHike(newHike){
+  setHikeArray([...hikeArray, newHike])
+}
+
+  const [backpackingArray, setBackpackingArray] = useState([])
+  useEffect(() => {
+    fetch(`http://localhost:3000/backpacking_loops`)
+    .then(res => res.json())
+    .then(bpData => setBackpackingArray(bpData))
+  }, [])
+
+  const [campingArray, setCampingArray] = useState([])
+  useEffect(() => {
+    fetch(`http://localhost:3000/camping`)
+    .then(res => res.json())
+    .then(campingData => setCampingArray(campingData))
+  }, [])
+  
   return (
     <>
       <Router>
         <NavBar />
         <Routes>
           <Route exact path="/" Component={Home}></Route>
-          <Route path="/hiking" Component={Hiking}></Route>
-          <Route path="/backpacking" Component={Backpacking}></Route>
-          <Route path="/camping" Component={Camping}></Route>
-          <Route path="/contact" Component={Contact}></Route>
+          <Route path="/hiking" element={<Hiking hikeArray={hikeArray}/>}></Route>
+          <Route path="/backpacking" element={<Backpacking backpackingArray={backpackingArray}/>}></Route>
+          <Route path="/camping" element={<Camping campingArray={campingArray}/>}></Route>
+          <Route path="/contact" Component={ContactForm}></Route>
         </Routes>
       </Router>
     </>

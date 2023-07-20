@@ -1,0 +1,176 @@
+{
+  "hikes": [
+    {
+      "id": 1,
+      "name": "Emerald Lake Trail",
+      "category": 1,
+      "distance": 3.2,
+      "description": "Enjoy this 3.2-mile out-and-back trail near Estes Park, Colorado.",
+      "time": 2,
+      "difficulty": "Moderate",
+      "elevation-gain": "702 ft",
+      "dogs": "No dogs allowed",
+      "image": "https://images.squarespace-cdn.com/content/v1/5d38779bf0610200016f4b50/1613263090360-MFKSKMTBJVGE8LTJ05XP/hiking+to+emerald+lake+rocky+mountain+national+park"
+    },
+    {
+      "id": 2,
+      "name": "Green Mountain West Trail",
+      "category": 1,
+      "distance": 4,
+      "description": "Try this 4.0-mile out-and-back trail near Boulder, Colorado.",
+      "time": 2,
+      "difficulty": "Moderate",
+      "elevation-gain": "721 ft",
+      "dogs": "Dogs Welcome",
+      "image": "https://bouldercolorado.gov/sites/default/files/styles/hero_image_977x557/public/2021-05/osmp-only-green-mtn-summit-peak-finder-ellen-steiner.jpg?itok=LqA6f5h3"
+    },
+    {
+      "id": 3,
+      "name": "High Dune Trail",
+      "category": 1,
+      "distance": 3,
+      "description": "Get to know this 3.0-mile out-and-back trail near Gardner, Colorado.",
+      "time": 2,
+      "difficulty": "Hard",
+      "elevation-gain": "629 ft",
+      "dogs": "No dogs allowed",
+      "image": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg1MDYyNTcvNzkxZjY5YTI3ZDhjYjk4MTg1OTA2Yzc1NmRkYThmODYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+    },
+    {
+      "id": 4,
+      "name": "Mount Sanitas via Lion's Lair Trail",
+      "category": 1,
+      "distance": 4.1,
+      "description": "Try this 4.1-mile out-and-back trail near Boulder, Colorado.",
+      "time": 2,
+      "difficulty": "Moderate",
+      "elevation-gain": "826 ft",
+      "dogs": "No dogs allowed",
+      "image": "https://images.squarespace-cdn.com/content/v1/5373ca62e4b0875c414542a1/1436199046204-UHWZ87FKYK30K185J1SR/DSC_0103.jpg?format=2500w"
+    },
+    {
+      "id": 5,
+      "name": "Maxwell Falls Bluffs Cliffside Trail Loop",
+      "category": 1,
+      "distance": 4.8,
+      "description": "Enjoy this 4.8-mile loop trail near Conifer, Colorado.",
+      "time": 3,
+      "difficulty": "Moderate",
+      "elevation-gain": "1,122 ft",
+      "dogs": "Dogs Welcome",
+      "image": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjI1MTE2ODEvMzcxNmI2ODEzOTcyMGE5OTRkNGU5ZmU3ZTYzNDAxZGQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+    },
+    {
+      "id": 6,
+      "name": "Skunk Canyon and Kohler Mesa Loop",
+      "category": 1,
+      "distance": 2.8,
+      "description": "Discover this 2.8-mile loop trail near Boulder, Colorado.",
+      "time": 2,
+      "difficulty": "Moderate",
+      "elevation-gain": "587 ft",
+      "dogs": "Dogs Welcome",
+      "image": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjI2NjA3MjEvNDgwMWE2ODk0MjBlODEyNjg3MWUyN2YyNDg1YTUyMDUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+    }
+  ],
+  "backpacking_loops": [
+    {
+      "id": 1,
+      "name": "Indian Peaks Wilderness Loop",
+      "category": 2,
+      "distance": 15,
+      "description": "A moderate backpacking loop with stunning views of the Rocky Mountains.",
+      "time": 2,
+      "difficulty": "Moderate",
+      "elevation-gain": "702 ft",
+      "dogs": "No dogs allowed",
+      "image": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg1MDYyNTcvNzkxZjY5YTI3ZDhjYjk4MTg1OTA2Yzc1NmRkYThmODYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+    },
+    {
+      "id": 2,
+      "name": "Lost Creek Wilderness Loop",
+      "category": 2,
+      "distance": 20,
+      "description": "A challenging backpacking loop with a high altitude lake at the end.",
+      "time": 3,
+      "difficulty": "Hard",
+      "elevation-gain": "702 ft",
+      "dogs": "No dogs allowed",
+      "image": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg1MDYyNTcvNzkxZjY5YTI3ZDhjYjk4MTg1OTA2Yzc1NmRkYThmODYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+    },
+    {
+      "id": 3,
+      "name": "Raggeds Wilderness Loop",
+      "category": 2,
+      "distance": 25,
+      "description": "A strenuous backpacking loop with a challenging summit.",
+      "time": 4,
+      "difficulty": "Hard",
+      "elevation-gain": "702 ft",
+      "dogs": "No dogs allowed",
+      "image": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg1MDYyNTcvNzkxZjY5YTI3ZDhjYjk4MTg1OTA2Yzc1NmRkYThmODYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+    },
+    {
+      "id": 4,
+      "name": "Poudre Wilderness Loop",
+      "category": 2,
+      "distance": 30,
+      "description": "A very challenging backpacking loop with a remote feel.",
+      "time": 5,
+      "difficulty": "Hard",
+      "elevation-gain": "702 ft",
+      "dogs": "No dogs allowed",
+      "image": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg1MDYyNTcvNzkxZjY5YTI3ZDhjYjk4MTg1OTA2Yzc1NmRkYThmODYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+    },
+    {
+      "id": 5,
+      "name": "White River National Forest Loop",
+      "category": 2,
+      "distance": 35,
+      "description": "An epic backpacking loop with a variety of terrain.",
+      "time": 6,
+      "difficulty": "Hard",
+      "elevation-gain": "702 ft",
+      "dogs": "No dogs allowed",
+      "image": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg1MDYyNTcvNzkxZjY5YTI3ZDhjYjk4MTg1OTA2Yzc1NmRkYThmODYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+    }
+  ],
+  "camping": [
+    {
+      "id": 1,
+      "name": "Longs Peak",
+      "category": 3,
+      "distance": 15,
+      "description": "A challenging hike to the summit of a 14,000 foot peak.",
+      "time": 12,
+      "difficulty": "Hard",
+      "elevation-gain": "702 ft",
+      "dogs": "No dogs allowed",
+      "image": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg1MDYyNTcvNzkxZjY5YTI3ZDhjYjk4MTg1OTA2Yzc1NmRkYThmODYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+    },
+    {
+      "id": 2,
+      "name": "Mount Evans",
+      "category": 3,
+      "distance": 16,
+      "description": "A very challenging hike to the summit of a 14,100 foot peak.",
+      "time": 13,
+      "difficulty": "Hard",
+      "elevation-gain": "702 ft",
+      "dogs": "No dogs allowed",
+      "image": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg1MDYyNTcvNzkxZjY5YTI3ZDhjYjk4MTg1OTA2Yzc1NmRkYThmODYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+    },
+    {
+      "id": 3,
+      "name": "Grays Peak",
+      "category": 3,
+      "distance": 17,
+      "description": "An epic hike to the summit of a 14,200 foot peak.",
+      "time": 14,
+      "difficulty": "Hard",
+      "elevation-gain": "702 ft",
+      "dogs": "No dogs allowed",
+      "image": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg1MDYyNTcvNzkxZjY5YTI3ZDhjYjk4MTg1OTA2Yzc1NmRkYThmODYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+    }
+  ]
+}
