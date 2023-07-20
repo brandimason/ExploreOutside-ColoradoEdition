@@ -4,7 +4,7 @@ import './Pages.css';
 import { useState } from 'react';
 import AddNewForm from '../AddNewForm';
 
-function Hiking({hikeArray}){
+function Hiking({hikeArray, addNewHike}){
     const [formShown, setFormShown] = useState(false)
 
     function handleSubmit(event){
@@ -16,7 +16,7 @@ function Hiking({hikeArray}){
             difficulty: event.target["difficulty"].value
         }
         
-        fetch('http://localhost:3000/hiking', {
+        fetch('http://localhost:3000/hikes', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newHike)
@@ -29,9 +29,9 @@ function Hiking({hikeArray}){
     return (
         <div>
             <h1>Hiking</h1>
-            <button onClick={()=>setFormShown(!formShown)}>Add</button>
+            <button className="btn" onClick={()=>setFormShown(!formShown)}>Add a new destination</button>
             {formShown ? 
-            <AddNewForm handleSubmit={handleSubmit}/>
+            <AddNewForm handleSubmit={handleSubmit} addNewHike={addNewHike}/>
             : 
             <></>
             }

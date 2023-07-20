@@ -15,12 +15,12 @@ function Cards() {
               path="/hiking"/>
                <CardItemHomePage
               src="images/woman-backpacking.webp"
-              text="Best Backpacking by Denver"
+              text="Best Backpacking Loops"
               label="Backpacking"
               path="/backpacking"/>
                <CardItemHomePage
               src="images/camping.jpeg"
-              text="Car Camping for Everyone"
+              text="All kinds of Camping"
               label="Camping"
               path="/camping"/>
             </ul>

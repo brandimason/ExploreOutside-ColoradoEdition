@@ -3,10 +3,10 @@ margin-top: 5%;
 }
 
 .SomeContainer {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
 }
 
 .contact_form_container{
@@ -16,4 +16,24 @@ text-align: center;
 margin-top: 2%;
 display: flex;
 flex-flow: column;
+}
+
+.btn{
+padding: 8px 20px;
+border-radius: 2px;
+outline: none;
+border: none;
+cursor: pointer;
+display: block; 
+margin: auto;
+margin-top: 2%;
+font-size: 18px;
+}
+
+.addnewform_container{
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+margin-top: 2%;
 }
