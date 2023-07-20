@@ -10,17 +10,6 @@
     z-index: 999;
 }
 
-/* .navbar ul li {
-    color: #fff;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 1.5rem;
-    display: inline-block;
-    align-items: center;
-} same as below*/
-
 .nav-item {
     color: #fff;
     justify-self: start;

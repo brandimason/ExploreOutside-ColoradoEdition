@@ -71,6 +71,12 @@
       "elevation-gain": "587 ft",
       "dogs": "Dogs Welcome",
       "image": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjI2NjA3MjEvNDgwMWE2ODk0MjBlODEyNjg3MWUyN2YyNDg1YTUyMDUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+    },
+    {
+      "name": "Island Lake",
+      "description": "This hike into the wilds of the San Juan National Forest will net you three lake views for the price of one relatively strenuous—but absolutely stunning—trek",
+      "image": "https://cdn.5280.com/2022/07/Island-Lake_SBanks_IMG_5531.jpg",
+      "id": 7
     }
   ],
   "backpacking_loops": [
@@ -133,15 +139,21 @@
       "elevation-gain": "702 ft",
       "dogs": "No dogs allowed",
       "image": "https://www.fs.usda.gov/Internet/FSE_MEDIA/fseprd1018004.jpg"
+    },
+    {
+      "name": "Brandi Mason",
+      "description": "Sick trip",
+      "image": "https://images.squarespace-cdn.com/content/v1/5e434c44dddd8b1f26ec2667/1582428074575-ECNMLILJ564ZEDVLKS0K/img_4291.jpg",
+      "id": 6
     }
   ],
   "camping": [
     {
       "id": 1,
-      "name": "Maroon Bells",
+      "name": "Silver Bar Campground, Maroon Bells",
       "category": 3,
-      "distance": 15,
-      "description": "A challenging hike to the summit of a 14,000 foot peak.",
+      "distance": 4,
+      "description": "This small, primitive, campground features four tent-only, walk-in sites with centralized vault toilets only a few yards away from each campsite.",
       "time": 12,
       "difficulty": "Hard",
       "elevation-gain": "702 ft",
@@ -150,10 +162,10 @@
     },
     {
       "id": 2,
-      "name": "Black Canyon Of The Gunnison National Park",
+      "name": "South Rim Campground, Black Canyon Of The Gunnison National Park",
       "category": 3,
       "distance": 16,
-      "description": "A very challenging hike to the summit of a 14,100 foot peak.",
+      "description": "Reservations may be made on recreation.gov for mid May to mid September, and it is first-come, first served after that.",
       "time": 13,
       "difficulty": "Hard",
       "elevation-gain": "702 ft",
@@ -165,12 +177,18 @@
       "name": "Lathrop State Park",
       "category": 3,
       "distance": 17,
-      "description": "An epic hike to the summit of a 14,200 foot peak.",
+      "description": "Lathrop has 103 campsites and three group-camping areas. Campsite reservations may be made by calling 1-800-244-5613​ or by reserving online. ",
       "time": 14,
       "difficulty": "Hard",
       "elevation-gain": "702 ft",
       "dogs": "No dogs allowed",
       "image": "https://publish.purewow.net/wp-content/uploads/sites/2/2021/07/best-camping-in-colorado-lathrop-state-park.jpg?fit=728%2C524"
+    },
+    {
+      "name": "Lake Irwin Campground, Crested Butte",
+      "description": "Lake Irwin Campground is situated on the western banks of its picturesque namesake lake, approximately 9 miles from Crested Butte, Colorado.",
+      "image": "https://photos.thedyrt.com/photo/25374/photo/colorado-lake-irwin-campground_93e669a51dbe21221073851065ae7470.JPG",
+      "id": 4
     }
   ]
 }
