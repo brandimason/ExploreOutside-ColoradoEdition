@@ -1,34 +1,20 @@
-.cards {
-    padding: 4rem;
-    background: #fff;
-    display: flex;
-
-  }
-  
-  h1 {
+    h1 {
     text-align: center;
   }
   
   .cards_container {
     display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    margin: 0 auto;
-  }
-  
-  .cards_wrapper {
-    position: relative;
-    margin: 50px 0 45px;
-  }
-  
-  .cards_items {
-    margin-bottom: 24px;
+    flex-flow: row wrap;
+    margin: 5rem 10rem;
+    gap: 2rem;
+    justify-content: space-evenly;
   }
   
   .cards_item {
+    width: 24rem;
+    height: 100%;
+    flex-shrink: 0;
     display: flex;
-    flex: 1;
-    margin: 0 1rem;
     border-radius: 10px;
   }
   
@@ -57,7 +43,7 @@
   }
   
   .cards_item_pic-wrap::after {
-    content: attr(data-category);
+    /* content: attr(data-category); */
     position: absolute;
     bottom: 0;
     margin-left: 10px;
@@ -97,6 +83,7 @@
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
+    text-align: center;
   }
   
   @media only screen and (min-width: 1200px) {

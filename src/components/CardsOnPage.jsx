@@ -1,21 +1,18 @@
 import './CardsOnPage.css';
 import CardItemHomePage from './CardItemHomePage';
 
-function CardsOnPage({item}) {
-    // console.log(hike)
+function CardsOnPage({data}) {
+    
   return (
-    <div className="cards">
-        <div className="cards_container">
-          <div className='cards_wrapper'>
-            <ul className="cards_items">
-              <CardItemHomePage
-              src={item.image}
-              text={item.name}
-              description={item.description}
-              />
-            </ul>
-          </div>
-        </div>
+    <div className="cards_container">
+      {data.map( destination => (
+        <CardItemHomePage
+        key={destination.distance}
+        src={destination.image}
+        text={destination.name}
+        description={destination.description}
+        />
+      ))}
     </div>
   )
 }

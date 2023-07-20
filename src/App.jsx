@@ -6,8 +6,8 @@ import Home from './components/pages/Home';
 import Hiking from './components/pages/Hiking';
 import Backpacking from './components/pages/Backpacking';
 import Camping from './components/pages/Camping';
-import Contact from './components/pages/Contact';
 import { useEffect, useState } from 'react';
+import ContactForm from './components/pages/ContactForm';
 
 function App() {
   const [hikeArray, setHikeArray] = useState([])
@@ -16,6 +16,10 @@ function App() {
     .then(res => res.json())
     .then(data => setHikeArray(data))
   }, [])
+
+function addNewHike(newHike){
+  setHikeArray([...hikeArray, newHike])
+}
 
   const [backpackingArray, setBackpackingArray] = useState([])
   useEffect(() => {
@@ -40,7 +44,7 @@ function App() {
           <Route path="/hiking" element={<Hiking hikeArray={hikeArray}/>}></Route>
           <Route path="/backpacking" element={<Backpacking backpackingArray={backpackingArray}/>}></Route>
           <Route path="/camping" element={<Camping campingArray={campingArray}/>}></Route>
-          <Route path="/contact" Component={Contact}></Route>
+          <Route path="/contact" Component={ContactForm}></Route>
         </Routes>
       </Router>
     </>
