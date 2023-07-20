@@ -1,8 +1,8 @@
 function AddNewForm({handleSubmit}){
     return (
-        <div className="addnewform_container">
-            <h1>Add a new destination!</h1>
-            <form onSubmit={handleSubmit} className="addnewform">
+        <div className="SomeContainer">
+            {/* <h3>Add a new destination:</h3> // header for when form appears*/}
+            <form onSubmit={handleSubmit} className="contact_form_container">
                 <input type="text" name="name" placeholder='Name'/>
                 <input type="text" name="description" placeholder="Description" />
                 <input type="text" name="difficulty" placeholder="Difficulty" />

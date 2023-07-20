@@ -7,7 +7,7 @@ function CardsOnPage({data}) {
     <div className="cards_container">
       {data.map( destination => (
         <CardItemHomePage
-        key={destination.distance}
+        key={destination.id}
         src={destination.image}
         text={destination.name}
         description={destination.description}
