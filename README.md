@@ -1,1 +1,1 @@
-# phase2project
+# Explore Outside, Colorado Edition
